@@ -1,0 +1,4 @@
+# Integer Overflow in Recursive Factorial Function
+This repository demonstrates an uncommon error in Hack related to integer overflow within a recursive factorial function.  The `foo` function calculates the factorial of a given integer. However, for sufficiently large inputs, the result exceeds the maximum value representable by a 32-bit integer, causing an overflow.
+
+The `bug.hack` file contains the erroneous code, while `bugSolution.hack` offers a corrected version using larger integer types or iterative approach to avoid overflow.  The solution addresses the overflow issue by handling larger inputs and preventing unexpected behavior.
